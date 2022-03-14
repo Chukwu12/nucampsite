@@ -11,4 +11,25 @@ $(function() {
             $("#carouselButton").children("i").addClass("fa-pause"); 
         }
     });
+
+console.log("my script js file is being read");
+
+   $("#reserveButton").on("click", function() {
+
+       console.log("reserved button clicked");
+       $("#reserveModal").modal("show");
+   });
+
+   $("#loginButton").on("click", function() {
+
+       console.log("loginButton clicked");
+       $("#loginModal").modal("show");
+
+   });
+
+
+function testButtonClick () {
+
+}
+
 });
